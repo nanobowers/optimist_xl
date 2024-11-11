@@ -819,7 +819,11 @@ class LongNames
   def names
     [long] + @alts
   end
-  
+
+  def to_s
+    @long
+  end
+
 end
 
 class ShortNames
